@@ -1,4 +1,3 @@
-(function() { 
 // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAGZrqumHYFJhu-FqtgGMePe-e3NZZBn4Y",
@@ -26,4 +25,3 @@ dbRefObject.on('value', snap => {
 //list changes
 dbRefList.on('child_added', snap => console.log(snap.val()));
 
-}());
